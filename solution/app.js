@@ -23,7 +23,7 @@ function setup() {
         newInputNode.placeholder = currLib.exampleText;
         
         let newLabelNode = document.createElement("label");
-        newLabelNode.for = currLib.id + "-input";
+        newLabelNode.htmlFor = currLib.id + "-input";
         newLabelNode.innerText = currLib.friendlyText;
 
         let newErrorTextNode = document.createElement("p");
